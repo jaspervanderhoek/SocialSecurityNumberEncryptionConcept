@@ -15,3 +15,9 @@ The encrypted SSN is never shared with the user, unless the Decryption microflow
 
 # Applying this in your own project
 When storing PII such as a SSN in your project it is necessary to incorporate all the demonstrated logic in the application in order to have a fully secure and compliant solution. 
+
+
+## Regulations
+**Please read the applicable legislation** but this module should comply with all US State laws (last confirmed January 2018). 
+Simplified summary of the legislation, the SSN must be encrypted (using the encryption module). The SSN should never be visible in plain text unless absolutely necessary for performing that activity. A regular person edit page that shows the plain SSN is not compliant, since it also shows the SSN when not needed. If you have a task/workflow step for which the SSN is critical it can be shown unencrypted. 
+Make sure the SSN can only be accessed by select users (the module has a separate role for viewing/editing the SSN). 
