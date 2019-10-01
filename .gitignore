@@ -12,3 +12,4 @@ deployment/
 .idea/
 .mendix-cache/
 *DS_Store*
+GPUCache/
